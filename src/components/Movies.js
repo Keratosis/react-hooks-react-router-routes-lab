@@ -3,7 +3,7 @@ import { movies } from "../data";
 
 
 function Movies() {
- return <div>{/*{code here}*/}
+ return <div>
  <h1>Movies Page</h1>
    {movies.map(movie => (
         <li key={movie.title}>{movie.title} {movie.time} {movie.genres}</li>

@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
-  return <div>{/*{code here}*/
+  return <div>
   <div className="navbar"> 
 <NavLink exact to ="/">
  Home
@@ -16,7 +16,7 @@ Directors</NavLink>
 
   </div>
   
-  }</div>;
+  </div>;
 }
 
 export default NavBar;

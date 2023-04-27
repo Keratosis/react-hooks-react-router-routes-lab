@@ -8,7 +8,7 @@ import Movies from "./Movies";
 
 
 
-  function App() {
+function App() {
     return (
       <div>
         <NavBar />
